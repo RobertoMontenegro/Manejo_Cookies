@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../imgs/cookie.png"> 
+  <title>Document</title>
+</head>
+<body onload="showCookies()">
+  <div id="full-container">
+    <div id="cookie-info">
+      <h1 id="cookie-title">Cookies guardadas en tu dispositivo</h1>
+      <div class="cookie-card">
+        <h3 class="cookie-name">Última dirección que buscaste:</h3>
+        <h4 id="last-searched-location"></h4>
+      </div>
+      <div class="cookie-card">
+        <h3 class="cookie-name">Lugares donde colocaste marcadores:</h3>
+        <h4 id="markers-location"></h4>
+      </div>
+      <div class="cookie-card">
+        <h3 class="cookie-name">El tema que prefieres:</h3> 
+        <h4 id="preferred-style"></h4>
+      </div>
+    </div>
+  </div>
+  <nav id="nav">
+    <a href="../index.html">
+      <button>
+        Ver el mapa
+        <img id="nav-to-map-button" src="../imgs/search.png">
+      </button>
+    </a>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  background-color: #414141;
+}
+
+#full-container {
+  position: relative;
+  height: 38rem;
+  width: 100%;
+}
+
+#selector-container {
+  height: 30px;
+  width: 100%;
+}
+
+#theme-select {
+  width: 20%;
+  height: 21px;
+  background-color: #373636;
+  color: gray;
+  border: solid 1px #fd9460;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-right: 2%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  border: solid 1px #fd9460;
+  border-radius: 5px;
+  position: relative;
+}
+
+.custom-map-control-button {
+  appearance: button;
+  background-color: #fff;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin: 10px;
+  padding: 0 0.5em;
+  height: 40px;
+  font: 400 18px Roboto, Arial, sans-serif;
+  overflow: hidden;
+}
+.custom-map-control-button:hover {
+  background: #ebebeb;
+}
+
+#input-direction {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #373636;
+  color: gray;
+}
+
+#search-button {
+  width: 9px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+
+#input-button {
+  background-color: #373636;
+}
+
+#nav a button {
+  margin-top: 1em;
+  background-color: #373636;
+  font-size: 15px;
+  color: gray;
+}
+
+#nav-to-cookies-button {
+  width: 15px;
+  margin-top: 3px;
+  border-radius: 5px;
+}

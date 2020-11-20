@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./imgs/search.png">  
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRl82U3AE-wX3K89UlOxlMVydOV4OEYZw&callback=initMap&libraries=&v=weekly"
+      defer 
+    ></script> 
+  <title>Cookies</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="full-container">
+    <div id="selector-container">
+      <select name="theme-select" id="theme-select" onchange="changeTheme();">
+        <option selected disabled hidden>Tema</option>
+        <optgroup label="Claros">
+          <option value="Standard">Standard</option>
+          <option value="Silver">Silver</option>
+          <option value="Retro">Retro</option>
+        </optgroup> 
+        <optgroup label="Oscuros">
+          <option value="Dark">Dark</option>
+          <option value="Night">Night</option>
+          <option value="Aubergine">Aubergine</option>
+        </optgroup> 
+      </select>
+      <input type="search" id="input-direction" placeholder=" Ir a una dirección">
+      <button type="button" id="input-button" onclick="searchDirection()">
+        <img id="search-button" src="./imgs/search.png">
+      </button>
+    </div>
+
+    <div id="map"></div>
+
+    <nav id="nav">
+      <a href="./cookie_display/cookie_display.html">
+        <button>
+          Ver cookies guardadas
+          <img id="nav-to-cookies-button" src="./imgs/cookie.png">
+        </button>
+      </a>
+    </nav>
+  </div>
+</body>
+</html>
