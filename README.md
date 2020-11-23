@@ -29,5 +29,7 @@ Si se encuentra el mapa se centrará en ese punto.
 Para consultar las cookies que se ingresaron hay que presionar el siguiente botón
 ![ButtonToCookiesPage](/screenshots/buttonToCookiesPage.jpeg)
 
+## Página secundaria (Cookies)
+
 Las cookies recopiladas se mostrarán en ésta página y hay un botón para regresar a la página del mapa
 ![CookiesPage](/screenshots/CookiesPage.jpeg)
